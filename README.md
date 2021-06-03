@@ -23,3 +23,8 @@ make install
 And follow the instructions.
 
 ![make_install](http://chsasank.github.io/assets/images/outline/make_install.png)
+
+After finish the process and you can login. 
+1. Go to {your domain}:9000 
+2. Login with secret key (You can find in env.outline after install Outline).
+3. Set folder permission to read and write. 
