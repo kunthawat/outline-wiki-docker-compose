@@ -117,7 +117,7 @@ function create_env_files {
     rm -f env.minio
     env_add MINIO_ACCESS_KEY $MINIO_ACCESS_KEY env.minio
     env_add MINIO_SECRET_KEY $MINIO_SECRET_KEY env.minio
-    env_add MINIO_BROWSER off env.minio
+    env_add MINIO_BROWSER on env.minio
 
     env_replace AWS_ACCESS_KEY_ID $MINIO_ACCESS_KEY env.outline
     env_replace AWS_SECRET_ACCESS_KEY $MINIO_SECRET_KEY env.outline
